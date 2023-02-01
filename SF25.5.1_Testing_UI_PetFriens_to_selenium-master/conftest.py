@@ -10,7 +10,7 @@ def testing():
    pytest.driver = webdriver.Chrome('/tests_drivers/chromedriver.exe')
 
    # Переходим на страницу авторизации
-   pytest.driver.get('http://petfriends1.herokuapp.com/login')
+   pytest.driver.get('http://https://petfriends.skillfactory.ru/login')
 
    yield
 
